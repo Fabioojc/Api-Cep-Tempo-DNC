@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api-Previsão do tempo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- cabeçario -->
+
+    <div class="cabeçario">
+        <div class="texto-cabeçario">
+            <h1>DncWeather</h1>
+            <a class="texto-botao" href="#caixa-informaçoes">Endereços</a>
+            <a class="texto-botao" href="#caixa-rodaPe">Previsão do tempo</a>
+        </div>
+    </div>
+
+    <!-- caixa-nuvem -->
+
+    <div id="caixa-nuvem">
+        <h1 class="texto-nuvem">Descubra com mais precisão: <br>
+            Previsões do Tempo e endereços <br>
+            em tempo real.</h1>
+        <img class="img-nuvem" src="./imgs/nuvem.svg" alt="">
+
+    </div>
+
+
+    <!-- caixa-informaçoes -->
+
+    <form id="caixa-informaçoes">
+        <div class="inputs">
+            <h4 class="texto-informaçoes">Primeiro Nome:</h4>
+            <input class="texto-informaçoes name" type="name" name="name" placeholder="Insira seu primeiro nome...">
+            <h4 class="texto-informaçoes">E-mail:</h4>
+            <input class="texto-informaçoes email" type="email" name="email" placeholder="Insira seu E-mail...">
+            <h4 class="texto-informaçoes">Digite o CEP:</h4>
+            <input class="texto-informaçoes input-cep" placeholder="Insira seu CEP...">
+            <h4 class="texto-informaçoes">Digite a latitude e longitude para saber a previsão:</h4>
+            <div class="sub-caixas">
+                <input id="latitude" class="sub-caixas input-tempo " placeholder="Latitude">
+                <input id="longitude" class="sub-caixas input-tempo " placeholder="Longitude">
+            </div>
+
+            <!-- botao -->
+
+            <button onclick="cliqueiNoBotao(colocarDadosNaTela)">Acessar
+            </button>
+
+        </div>
+
+    </form>
+
+    <!-- caixa-cep -->
+
+    <div class="caixa-cep">
+        <div class="caixa-pesquisa">
+            <h1>Resultado da busca por CEP:</h1>
+            <img src="./imgs/localizador.svg" alt="">
+        </div>
+        <div class="caixa-localizacao">
+            <h3>Logradouro/nome</h3>
+            <h3>Bairro/Distrito</h3>
+            <h3>Localidade/UF</h3>
+        </div>
+        <div class="Caixa-resultado">
+            <h3 class="texto-cep nome">Rua</h3>
+            <h3 class="texto-cep bairro">Bairro</h3>
+            <h3 class="texto-cep cidade">Cidade</h3>
+        </div>
+    </div>
+
+    <!-- caixa-tempo-->
+
+    <div id="caixa-rodaPe">
+        <h1>Previsão do tempo na região:</h1>
+        <img src="./imgs/nuvem-roda-pe.svg" alt="">
+    </div>
+    <div class="caixa-texto-rodaPe">
+        <h3 class="texto-pe">Previsão de tempo de acordo com a região: <a class="nume-graus">24</a>° C</h3>
+    </div>
+
+    <!-- Caixa-termos-de-uso -->
+
+    <div id="caixa-termos-uso">
+        <footer class="texto-termos">
+            <h3>Termos de Uso | Política de Privacidade</h3>
+        </footer>
+        input-tempo
+</body>
+<script src="scripts.js"></script>
+
+</html>

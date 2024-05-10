@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: inter;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+.cabeçario {
+  background-color: #0c70f2;
+  height: 20px;
+  padding: 30px;
+}
+
+.texto-cabeçario {
+  display: grid;
+  grid-template-columns: 3fr 0.3fr 0.5fr;
+  align-items: center;
+  color: #f2f2f2;
+}
+
+#caixa-nuvem {
+  height: 250px;
+  margin-top: 10px;
+  margin-left: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.texto-nuvem {
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 60.51px;
+  color: #1f1f1f;
+}
+
+.texto-botao {
+  font-weight: bold;
+  font-size: 20px;
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
+.img-nuvem {
+  width: 13%;
+  margin-left: 60px;
+}
+
+#caixa-informaçoes {
+  border-radius: 50px;
+  background-color: #ffffff;
+  margin-top: 10px;
+  margin-left: 300px;
+  margin-right: 800px;
+  font-size: 20px;
+  height: 500px;
+  padding: 20px;
+}
+
+.texto-informaçoes {
+  margin: 25px 0px 0px 40px;
+}
+
+input {
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 10px;
+  height: 30px;
+  width: 650px;
+  font-size: 18px;
+  background-color: #f2f2f2;
+}
+
+.sub-caixas {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  width: 700px;
+  height: 30px;
+  margin-top: 29px;
+}
+
+button:hover {
+  box-shadow: 1px 10px 4px 1px rgba(12, 112, 242, 0.25);
+}
+
+button {
+  width: 500px;
+  height: 56px;
+  margin-top: 80px;
+  border-radius: 10px;
+  background-color: #0c70f2e5;
+  margin-left: 100px;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.caixa-cep {
+  margin-left: 300px;
+  margin-top: 50px;
+}
+
+.caixa-pesquisa {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.caixa-localizacao {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-right: 650px;
+
+  background: rgba(12, 112, 242, 1);
+  border-radius: 30px 30px 0px 0px;
+  color: rgba(255, 255, 255, 1);
+  padding: 20px;
+  height: 10px;
+}
+
+.Caixa-resultado {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 650px;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 0px 0px 30px 30px;
+  padding: 15px;
+}
+
+.texto-cep {
+  margin-top: 5px;
+  margin-right: 70px;
+  color: rgba(31, 31, 31, 1);
+  font-size: 20px;
+}
+
+#caixa-rodaPe {
+  height: 250px;
+  margin-left: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.caixa-texto-rodaPe {
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 30px;
+  margin-bottom: 50px;
+  height: 20px;
+  padding: 20px;
+  border: 1px;
+  margin-right: 600px;
+  margin-left: 290px;
+  border: 1px solid rgba(12, 112, 242, 1);
+}
+
+.texto-pe {
+  margin-left: 200px;
+}
+
+#caixa-termos-uso {
+  background: rgba(12, 112, 242, 1);
+}
+
+.texto-termos {
+  font-family: Inter;
+  font-size: 15px;
+  margin-right: 70px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: end;
+  color: rgba(255, 255, 255, 1);
+}
