@@ -8,6 +8,12 @@ body {
   background-color: #f2f2f2;
 }
 
+.error {
+  display: none;
+  color: black;
+  background-color: red;
+}
+
 .cabeçario {
   background-color: #0c70f2;
   height: 20px;
